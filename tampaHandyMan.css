@@ -1,0 +1,124 @@
+body {
+	/*background-image: url("barn-images-12223.jpg");*/
+	background-size: 100%;
+	background-repeat: no-repeat;
+	z-index: 1;
+}
+
+.bgimg-1, .bgimg-2 {
+	position: relative;
+  	opacity: 0.65;
+  	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+ }
+
+ .bgimg-1 {
+ 	background-image: url("barn-images-12223.jpg");
+ 	min-height: 600px;
+ }
+
+ .bgimg-2 {
+ 	background-color: yellow;
+ 	min-height: 600px;
+ }
+
+#landingContainer{
+	height: 80vh;
+	width: 100vw;
+	color: black;
+	background-color: white;
+	z-index: 2;
+	-webkit-box-shadow: 0 8px 7px -2px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0 8px 7px -2px rgba(50, 50, 50, 0.75);
+    box-shadow:         0 8px 7px -2px rgba(50, 50, 50, 0.75);
+}
+
+#detailedServices {
+	width: 30vw;
+	position: absolute;
+	bottom: 22.5vh;
+	left: 0;
+	right: 0;
+	margin: auto;
+	text-align: center;
+}
+
+#detailedServicesButton {
+	border-radius: 5px;
+	color: white;
+	background-color: green;
+}
+
+#servicesGuide {
+	display: none;
+}
+
+#detailedInformation {
+	height: 50vh;
+	width: 50vw;
+	background-color: pink;
+	position: absolute;
+	display: none;
+}
+
+#galleryContainer {
+	height: 90vh;
+	width: 100vw;
+	color: black;
+	background-color: white;
+	z-index: 2;
+	-webkit-box-shadow: 0px 7px 8px rgba(50, 50, 50, 0.75), 0px -7px 8px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px 7px 8px rgba(50, 50, 50, 0.75), 0px -7px 8px rgba(50, 50, 50, 0.75);
+    box-shadow: 0px 7px 8px rgba(50, 50, 50, 0.75), 0px -7px 8px rgba(50, 50, 50, 0.75);
+}
+
+#ScrollContainer {
+	height: 62.5vh;
+	width: 100%;
+	background-color: green;
+}
+
+#galleryScrollContainer {
+	height: 62.5vh;
+	width: 20%;
+	background-color: black;
+	display: inline-block;
+}
+
+#galleryZoomIn {
+	height: 62.5vh;
+	width: 75%;
+	background-color: black;
+	display: inline-block;
+}
+
+#contactContainer {
+	height: 85vh;
+	width: 100vw;
+	color: black;
+	background-color: white;
+	z-index: 2;
+	-webkit-box-shadow: 0px -7px 8px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px -7px 8px rgba(50, 50, 50, 0.75);
+    box-shadow:         0px -7px 8px rgba(50, 50, 50, 0.75);
+}
+
+#contactHeaderContainer {
+	height: 17.5vh;
+}
+
+#contactReasonContainer {
+	height: 60vh;
+	display: inline-block;
+}
+
+#contactFormContainer {
+	height: 60vh;
+	border: 2.5px solid black;
+	display: inline-block;
+	-webkit-box-shadow:  -7px 0px 8px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:     -7px 0px 8px rgba(50, 50, 50, 0.75);
+    box-shadow:          -7px 0px 8px rgba(50, 50, 50, 0.75);
+}
