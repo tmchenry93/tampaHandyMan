@@ -20,7 +20,7 @@ body {
  }
 
  .bgimg-2 {
- 	background-color: yellow;
+ 	background-image: url("sweeteas.jpg");
  	min-height: 600px;
  }
 
@@ -116,7 +116,7 @@ body {
 
 #contactFormContainer {
 	height: 60vh;
-	border: 2.5px solid black;
+	border: 0.5px solid black;
 	display: inline-block;
 	-webkit-box-shadow:  -7px 0px 8px rgba(50, 50, 50, 0.75);
     -moz-box-shadow:     -7px 0px 8px rgba(50, 50, 50, 0.75);
